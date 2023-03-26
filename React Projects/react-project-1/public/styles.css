@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-color: #282d35;
+}
+
+.navbar {
+  display: flex;
+  font-family: inter;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 90px;
+}
+
+.logo-text {
+  font-size: 22px;
+}
+
+.logo {
+  padding-left: 50px;
+  display: flex;
+  color: skyblue;
+  align-items: center;
+}
+
+.logo > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+nav > h3 {
+  margin-left: auto;
+}
+
+.main-section {
+  color: white;
+  font-family: inter;
+  padding: 15px;
+  background-image: url("https://play-lh.googleusercontent.com/zb5zeBr2gRTXu_ijJ9VV-KS612BTBt0HnOsIhMjmFSemEThhuvhXnt2gC93q9i_id5M");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  background-size: 400px;
+  back
+}
+
+.main-section > ul > li {
+  padding: 10px 0;
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.main-section > ul > li::marker {
+  color: skyblue;
+  font-size: 1.8rem;
+}
